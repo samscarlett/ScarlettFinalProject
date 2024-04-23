@@ -1,0 +1,8 @@
+Currently the skeleton for the website is there. I have a working website with drop down menus for MIDI input and outputs. I also have a drop down menu for scale selection.
+
+Everything is working fine, when I try to play a note signal does process through the website. The current issue is getting the program to recognize what notes it is NOT allowed to
+play when a certain scale is selected. Right now I have an array that lists out every note in a C major scale. The idea I had was to just build everything around C Major, and then
+for the following keys I can just add whatever number is necessary to the array values to have them be the correct scale. 
+
+At the moment I have the C Major scale identified as an array with all of the proper notes. Now I am trying to figure out how to get the program to only allow those notes to be played
+when the user selects C Major from the drop down menu. I don't really know how to do this.
